@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VBWebServiceSequentialConsole
+</name>
+</assembly>
+<members>
+<member name="M:VBWebServiceSequentialConsole.SimpleWebService.Service.#ctor">
+	<remarks/>
+</member><member name="E:VBWebServiceSequentialConsole.SimpleWebService.Service.IsUserCompleted">
+	<remarks/>
+</member><member name="M:VBWebServiceSequentialConsole.SimpleWebService.Service.IsUser(System.String)">
+	<remarks/>
+</member><member name="M:VBWebServiceSequentialConsole.SimpleWebService.Service.IsUserAsync(System.String)">
+	<remarks/>
+</member><member name="M:VBWebServiceSequentialConsole.SimpleWebService.Service.IsUserAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:VBWebServiceSequentialConsole.SimpleWebService.Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:VBWebServiceSequentialConsole.SimpleWebService.Service">
+	<remarks/>
+</member><member name="T:VBWebServiceSequentialConsole.SimpleWebService.IsUserCompletedEventHandler">
+	<remarks/>
+</member><member name="P:VBWebServiceSequentialConsole.SimpleWebService.IsUserCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:VBWebServiceSequentialConsole.SimpleWebService.IsUserCompletedEventArgs">
+	<remarks/>
+</member><member name="P:VBWebServiceSequentialConsole.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:VBWebServiceSequentialConsole.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:VBWebServiceSequentialConsole.My.Resources.Resources.WorkflowTerminatedReason">
+	<summary>
+  Looks up a localized string similar to Workflow terminated with reason: {0}.
+</summary>
+</member><member name="T:VBWebServiceSequentialConsole.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

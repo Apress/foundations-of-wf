@@ -1,0 +1,7 @@
+bin\SimpleActivity.dll
+bin\SimpleActivity.pdb
+bin\SimpleActivity.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SimpleActivity.dll
+obj\Debug\SimpleActivity.xml
+obj\Debug\SimpleActivity.pdb

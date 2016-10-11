@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="PurchaseOrderReceivedCheck.exe" version="1.0.0.1" publicKeyToken="4c95079208fdd425" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PurchaseOrderReceivedCheck" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PurchaseOrderReceivedCheck.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Workflow.Activities" version="3.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Workflow.ComponentModel" version="3.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Workflow.Runtime" version="3.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PurchaseOrderReceivedCheck.exe" size="28672">
+      <assemblyIdentity name="PurchaseOrderReceivedCheck" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Fv6oWrU228o5mwgtdaslWVbCHGs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=BRIANLAPTOP\Brian" issuerKeyHash="2b087dc35bdbe868dd6c27d62f9f8fbb2f84e652" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>W9ctTzqH1wStFGnSY8+Q/YqPB4o=</DigestValue></Reference></SignedInfo><SignatureValue>E6hEceIQF10Guzq9NYKaQTbqcOzpj+hTxEuP16fUMOJuTPcQb3z7oz81w9kJ6+6ijqcHtExQNJ86Gw3yF/wTDiRoGXoPsg+pEpgCETVbM3baK769P/tWLEN7z/6M5+1Oz7Rb0z44I7ZOpmJAXVCDMXOTi2sBCDC3lPaSYT/g7JQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kSt2i1qxNj2JgODbgtKiOBXth3cYVa8d05UBDiVQFy7RejOQXS6wRYrpQqmo1+N1HYYg4GqgF0ur67ZyHiq6mMrN57nXWOjsPleyAu2rvtP5gadBRP8yxFrqQSl2O4hSpyYnKrUryNUrdH3E+DocNZo50Bf8QwlH963x/TfNm9c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8a078f8afd90cf63d26914ad04d7873a4f2dd75b" Description="" Url=""><as:assemblyIdentity name="PurchaseOrderReceivedCheck.exe" version="1.0.0.1" publicKeyToken="4c95079208fdd425" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BRIANLAPTOP\Brian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FrLoYvS/3MmzIxpa4gAfK3rVGFY=</DigestValue></Reference></SignedInfo><SignatureValue>ApmpI5dneCaX8s0BtQLYE7jBqxg34OUeQ9hwlplhChxgwbjSn3a2qpqnNtWk8dx4skuCDWViAXPucb4u2sUxBYy2g2bJ6ChjrgsY7hdUaYOg5bdXzu+FGXGHdbe81dacLCT1zKXYtH2nJUsnahapiPZuunKyMuOl28uD4xAu6Y4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kSt2i1qxNj2JgODbgtKiOBXth3cYVa8d05UBDiVQFy7RejOQXS6wRYrpQqmo1+N1HYYg4GqgF0ur67ZyHiq6mMrN57nXWOjsPleyAu2rvtP5gadBRP8yxFrqQSl2O4hSpyYnKrUryNUrdH3E+DocNZo50Bf8QwlH963x/TfNm9c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAUKgAwIBAgIQX0YRQHTL+p5L0aYL3YXZTTAJBgUrDgMCHQUAMC0xKzApBgNVBAMeIgBCAFIASQBBAE4ATABBAFAAVABPAFAAXABCAHIAaQBhAG4wHhcNMDYwNjEwMTUzNzE0WhcNMDcwNjEwMjEzNzE0WjAtMSswKQYDVQQDHiIAQgBSAEkAQQBOAEwAQQBQAFQATwBQAFwAQgByAGkAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRK3aLWrE2PYmA4NuC0qI4Fe2HdxhVrx3TlQEOJVAXLtF6M5BdLrBFiulCqajX43UdhiDgaqAXS6vrtnIeKrqYys3nuddY6Ow+V7IC7au+0/mBp0FE/zLEWupBKXY7iFKnJicqtSvI1St0fcT4Ohw1mjnQF/xDCUf3rfH9N82b1wIDAQABMAkGBSsOAwIdBQADgYEAZ2BspAWnRYWQsbYBGmRUXJy45fYgI0tu/gbfjJB5mCWdbylS0/g4epQRy4pJLTr4+HX47UYgn6tDZrpwzz9WrTVhD81xqoUqLn7HWJ0FV4UE3Y9nkObiNO9lhq4Y/nmo41T3hwdCTPQHJwcnTEWGPMgNB9hK0iPmvVyRxueH9Ag=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

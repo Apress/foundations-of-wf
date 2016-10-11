@@ -1,0 +1,31 @@
+﻿<StateMachineWorkflowDesigner xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Name="Workflow1" Location="30, 30" Size="891, 528" AutoSizeMargin="16, 24" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.DesignerConnectors>
+		<StateDesignerConnector TargetConnectionIndex="0" TargetStateName="State2" SourceConnectionIndex="0" TargetConnectionEdge="Top" SetStateName="ToState2" SourceStateName="State1" SourceConnectionEdge="Right" TargetActivity="State2" SourceActivity="State1" EventHandlerName="Initialization1">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="490" Y="146" />
+				<ns0:Point X="580" Y="146" />
+				<ns0:Point X="580" Y="281" />
+				<ns0:Point X="444" Y="281" />
+				<ns0:Point X="444" Y="293" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+	</StateMachineWorkflowDesigner.DesignerConnectors>
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Name="State1" Location="367, 104" Size="207, 84" AutoSizeMargin="16, 24">
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Size="110, 217" Name="Initialization1" Location="375, 136">
+					<StateInitializationDesigner.Designers>
+						<CodeDesigner Size="90, 40" Name="Code1" Location="385, 211" />
+						<SetStateDesigner Size="90, 42" Name="ToState2" Location="385, 281" />
+					</StateInitializationDesigner.Designers>
+				</StateInitializationDesigner>
+				<StateFinalizationDesigner Size="110, 145" Name="Finalization1" Location="375, 161">
+					<StateFinalizationDesigner.Designers>
+						<CodeDesigner Size="90, 40" Name="code2" Location="385, 236" />
+					</StateFinalizationDesigner.Designers>
+				</StateFinalizationDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Name="State2" Location="364, 293" Size="160, 80" AutoSizeMargin="16, 24" />
+	</StateMachineWorkflowDesigner.Designers>
+</StateMachineWorkflowDesigner>

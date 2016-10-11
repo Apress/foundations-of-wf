@@ -1,0 +1,9 @@
+.\bin\Debug\CSendEmailTest.exe
+.\bin\Debug\CSendEmailTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CSendEmailTest.Properties.Resources.resources
+obj\Debug\CSendEmailTest.csproj.GenerateResource.Cache
+obj\Debug\CSendEmailTest.exe
+obj\Debug\CSendEmailTest.pdb
+.\bin\Debug\SendEmailC.dll
+.\bin\Debug\SendEmailC.pdb

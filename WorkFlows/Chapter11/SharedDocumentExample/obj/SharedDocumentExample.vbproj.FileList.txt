@@ -1,0 +1,7 @@
+bin\SharedDocumentExample.dll
+bin\SharedDocumentExample.pdb
+bin\SharedDocumentExample.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SharedDocumentExample.dll
+obj\Debug\SharedDocumentExample.xml
+obj\Debug\SharedDocumentExample.pdb

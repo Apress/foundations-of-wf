@@ -1,0 +1,15 @@
+bin\EPRWorkflow.dll.config
+bin\EPRWorkflow.dll
+bin\EPRWorkflow.pdb
+bin\EPRWorkflow.xml
+bin\EPRService.dll
+bin\SendEmail.dll
+bin\EPRService.pdb
+bin\EPRService.xml
+bin\SendEmail.pdb
+bin\SendEmail.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EPRWorkflow.EPR.layout
+obj\Debug\EPRWorkflow.dll
+obj\Debug\EPRWorkflow.xml
+obj\Debug\EPRWorkflow.pdb

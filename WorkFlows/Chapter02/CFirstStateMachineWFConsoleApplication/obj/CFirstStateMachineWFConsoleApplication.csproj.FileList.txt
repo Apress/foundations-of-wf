@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CFirstStateMachineWFConsoleApplication.Properties.Resources.resources
+obj\Debug\CFirstStateMachineWFConsoleApplication.csproj.GenerateResource.Cache
+.\bin\Debug\CFirstStateMachineWFConsoleApplication.exe
+.\bin\Debug\CFirstStateMachineWFConsoleApplication.pdb
+obj\Debug\CFirstStateMachineWFConsoleApplication.exe
+obj\Debug\CFirstStateMachineWFConsoleApplication.pdb
+obj\Debug\CFirstStateMachineWFConsoleApplication.Workflow1.layout

@@ -1,0 +1,53 @@
+﻿<StateMachineWorkflowDesigner xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Name="Workflow1" Location="30, 30" Size="891, 528" AutoSize="False" AutoSizeMargin="16, 24" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.DesignerConnectors>
+		<StateDesignerConnector TargetConnectionIndex="0" TargetStateName="LastState" SourceConnectionIndex="0" TargetConnectionEdge="Top" SetStateName="GoToLastState" SourceStateName="InitialState" SourceConnectionEdge="Right" TargetActivity="LastState" SourceActivity="InitialState" EventHandlerName="stateInitializationActivity1">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="546" Y="113" />
+				<ns0:Point X="565" Y="113" />
+				<ns0:Point X="565" Y="205" />
+				<ns0:Point X="477" Y="205" />
+				<ns0:Point X="477" Y="217" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+	</StateMachineWorkflowDesigner.DesignerConnectors>
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Name="InitialState" Location="352, 71" Size="207, 84" AutoSizeMargin="16, 24">
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Size="130, 413" Name="stateInitializationActivity1" Location="360, 103">
+					<StateInitializationDesigner.Designers>
+						<SequenceDesigner Size="110, 219" Name="sequenceActivity1" Location="370, 178">
+							<SequenceDesigner.Designers>
+								<CodeDesigner Size="90, 42" Name="Sequence1" Location="380, 253" />
+								<CodeDesigner Size="90, 42" Name="Sequence2" Location="380, 325" />
+							</SequenceDesigner.Designers>
+						</SequenceDesigner>
+						<SetStateDesigner Size="90, 59" Name="GoToLastState" Location="380, 427" />
+					</StateInitializationDesigner.Designers>
+				</StateInitializationDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Name="LastState" Location="374, 217" Size="207, 80" AutoSize="False" AutoSizeMargin="16, 24">
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Size="301, 429" Name="stateInitializationActivity2" Location="325, 151">
+					<StateInitializationDesigner.Designers>
+						<ParallelDesigner Size="281, 324" Name="parallelActivity1" Location="335, 226">
+							<ParallelDesigner.Designers>
+								<SequenceDesigner Size="110, 219" Name="sequenceActivity2" Location="354, 301">
+									<SequenceDesigner.Designers>
+										<CodeDesigner Size="90, 42" Name="ParallelLeft" Location="364, 412" />
+									</SequenceDesigner.Designers>
+								</SequenceDesigner>
+								<SequenceDesigner Size="110, 219" Name="sequenceActivity3" Location="487, 301">
+									<SequenceDesigner.Designers>
+										<CodeDesigner Size="90, 42" Name="ParallelRight1" Location="497, 376" />
+										<CodeDesigner Size="90, 42" Name="ParallelRight2" Location="497, 448" />
+									</SequenceDesigner.Designers>
+								</SequenceDesigner>
+							</ParallelDesigner.Designers>
+						</ParallelDesigner>
+					</StateInitializationDesigner.Designers>
+				</StateInitializationDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+	</StateMachineWorkflowDesigner.Designers>
+</StateMachineWorkflowDesigner>

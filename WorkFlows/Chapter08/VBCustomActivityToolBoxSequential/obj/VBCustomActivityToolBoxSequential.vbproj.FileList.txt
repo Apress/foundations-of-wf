@@ -1,0 +1,12 @@
+bin\VBCustomActivityToolBoxSequential.exe
+bin\VBCustomActivityToolBoxSequential.pdb
+bin\VBCustomActivityToolBoxSequential.xml
+bin\SimpleActivity.dll
+bin\SimpleActivity.pdb
+bin\SimpleActivity.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBCustomActivityToolBoxSequential.Resources.resources
+obj\Debug\VBCustomActivityToolBoxSequential.vbproj.GenerateResource.Cache
+obj\Debug\VBCustomActivityToolBoxSequential.exe
+obj\Debug\VBCustomActivityToolBoxSequential.xml
+obj\Debug\VBCustomActivityToolBoxSequential.pdb

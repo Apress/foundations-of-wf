@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBFaultHandlerSequentialConsoleApplication.Resources.resources
+obj\Debug\VBFaultHandlerSequentialConsoleApplication.vbproj.GenerateResource.Cache
+bin\VBFaultHandlerSequentialConsoleApplication.exe
+bin\VBFaultHandlerSequentialConsoleApplication.pdb
+bin\VBFaultHandlerSequentialConsoleApplication.xml
+obj\Debug\VBFaultHandlerSequentialConsoleApplication.exe
+obj\Debug\VBFaultHandlerSequentialConsoleApplication.xml
+obj\Debug\VBFaultHandlerSequentialConsoleApplication.pdb

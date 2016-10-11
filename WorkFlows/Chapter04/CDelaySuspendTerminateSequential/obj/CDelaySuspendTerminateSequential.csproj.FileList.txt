@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CDelaySuspendTerminateSequential.Properties.Resources.resources
+obj\Debug\CDelaySuspendTerminateSequential.csproj.GenerateResource.Cache
+.\bin\Debug\CDelaySuspendTerminateSequential.exe
+.\bin\Debug\CDelaySuspendTerminateSequential.pdb
+obj\Debug\CDelaySuspendTerminateSequential.exe
+obj\Debug\CDelaySuspendTerminateSequential.pdb

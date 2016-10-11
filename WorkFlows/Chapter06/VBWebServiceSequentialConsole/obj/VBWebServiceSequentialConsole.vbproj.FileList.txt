@@ -1,0 +1,10 @@
+bin\VBWebServiceSequentialConsole.exe.config
+bin\VBWebServiceSequentialConsole.exe
+bin\VBWebServiceSequentialConsole.pdb
+bin\VBWebServiceSequentialConsole.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBWebServiceSequentialConsole.Resources.resources
+obj\Debug\VBWebServiceSequentialConsole.vbproj.GenerateResource.Cache
+obj\Debug\VBWebServiceSequentialConsole.exe
+obj\Debug\VBWebServiceSequentialConsole.xml
+obj\Debug\VBWebServiceSequentialConsole.pdb

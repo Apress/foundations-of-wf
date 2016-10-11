@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\ExecuteSQL.dll
+bin\ExecuteSQL.pdb
+bin\ExecuteSQL.xml
+obj\Debug\ExecuteSQL.dll
+obj\Debug\ExecuteSQL.xml
+obj\Debug\ExecuteSQL.pdb

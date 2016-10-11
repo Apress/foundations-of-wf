@@ -1,0 +1,12 @@
+bin\VBSendEmailTest.exe
+bin\VBSendEmailTest.pdb
+bin\VBSendEmailTest.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBSendEmailTest.Resources.resources
+obj\Debug\VBSendEmailTest.vbproj.GenerateResource.Cache
+obj\Debug\VBSendEmailTest.exe
+obj\Debug\VBSendEmailTest.xml
+obj\Debug\VBSendEmailTest.pdb
+bin\SendEmail.dll
+bin\SendEmail.pdb
+bin\SendEmail.xml

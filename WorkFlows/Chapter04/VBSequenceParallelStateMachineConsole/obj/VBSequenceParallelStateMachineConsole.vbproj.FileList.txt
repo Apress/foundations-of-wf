@@ -1,0 +1,10 @@
+bin\VBSequenceParallelStateMachineConsole.exe
+bin\VBSequenceParallelStateMachineConsole.pdb
+bin\VBSequenceParallelStateMachineConsole.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBSequenceParallelStateMachineConsole.Workflow1.layout
+obj\Debug\VBSequenceParallelStateMachineConsole.Resources.resources
+obj\Debug\VBSequenceParallelStateMachineConsole.vbproj.GenerateResource.Cache
+obj\Debug\VBSequenceParallelStateMachineConsole.exe
+obj\Debug\VBSequenceParallelStateMachineConsole.xml
+obj\Debug\VBSequenceParallelStateMachineConsole.pdb

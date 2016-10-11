@@ -1,0 +1,9 @@
+bin\VBSequenceParallelSequentialConsole.exe
+bin\VBSequenceParallelSequentialConsole.pdb
+bin\VBSequenceParallelSequentialConsole.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBSequenceParallelSequentialConsole.Resources.resources
+obj\Debug\VBSequenceParallelSequentialConsole.vbproj.GenerateResource.Cache
+obj\Debug\VBSequenceParallelSequentialConsole.exe
+obj\Debug\VBSequenceParallelSequentialConsole.xml
+obj\Debug\VBSequenceParallelSequentialConsole.pdb

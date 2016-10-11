@@ -1,0 +1,81 @@
+﻿<StateMachineWorkflowDesigner xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Name="EPR" Location="30, 30" Size="890, 528" AutoSize="False" AutoSizeMargin="16, 24" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.DesignerConnectors>
+		<StateDesignerConnector TargetConnectionIndex="0" TargetStateName="SupervisorToEmployee" SourceConnectionIndex="0" TargetConnectionEdge="Top" SetStateName="TransitionToSupervisor" SourceStateName="ReviewToSupervisor" SourceConnectionEdge="Right" TargetActivity="SupervisorToEmployee" SourceActivity="ReviewToSupervisor" EventHandlerName="EmployeeToSupervisor">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="315" Y="145" />
+				<ns0:Point X="501" Y="145" />
+				<ns0:Point X="501" Y="169" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetConnectionIndex="0" TargetStateName="EmployeeChoice" SourceConnectionIndex="0" TargetConnectionEdge="Top" SetStateName="TransitionToEmployeeChoice" SourceStateName="SupervisorToEmployee" SourceConnectionEdge="Right" TargetActivity="EmployeeChoice" SourceActivity="SupervisorToEmployee" EventHandlerName="HandleSupervisorToEmployee">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="613" Y="211" />
+				<ns0:Point X="629" Y="211" />
+				<ns0:Point X="629" Y="271" />
+				<ns0:Point X="501" Y="271" />
+				<ns0:Point X="501" Y="283" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetConnectionIndex="0" TargetStateName="Completed" SourceConnectionIndex="0" TargetConnectionEdge="Top" SetStateName="TransitionToCompleted" SourceStateName="EmployeeChoice" SourceConnectionEdge="Right" TargetActivity="Completed" SourceActivity="EmployeeChoice" EventHandlerName="EmployeeApproves">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="557" Y="325" />
+				<ns0:Point X="615" Y="325" />
+				<ns0:Point X="615" Y="430" />
+				<ns0:Point X="503" Y="430" />
+				<ns0:Point X="503" Y="442" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetConnectionIndex="0" TargetStateName="Completed" SourceConnectionIndex="1" TargetConnectionEdge="Top" SetStateName="TransitionToCompleted2" SourceStateName="EmployeeChoice" SourceConnectionEdge="Right" TargetActivity="Completed" SourceActivity="EmployeeChoice" EventHandlerName="EmployeeDoesNotApprove">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="602" Y="350" />
+				<ns0:Point X="615" Y="350" />
+				<ns0:Point X="615" Y="430" />
+				<ns0:Point X="503" Y="430" />
+				<ns0:Point X="503" Y="442" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+	</StateMachineWorkflowDesigner.DesignerConnectors>
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Name="ReviewToSupervisor" Location="131, 103" Size="188, 80" AutoSizeMargin="16, 24">
+			<StateDesigner.Designers>
+				<EventDrivenDesigner Size="110, 308" Name="EmployeeToSupervisor" Location="139, 135">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Size="90, 42" Name="HandleToSupervisor" Location="149, 210" />
+						<ActivityDesigner Size="90, 42" Name="SendEmailToSupervisor" Location="149, 282" />
+						<SetStateDesigner Size="90, 59" Name="TransitionToSupervisor" Location="149, 354" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Name="SupervisorToEmployee" Location="386, 169" Size="231, 80" AutoSize="False" AutoSizeMargin="16, 24">
+			<StateDesigner.Designers>
+				<EventDrivenDesigner Size="110, 308" Name="HandleSupervisorToEmployee" Location="420, 151">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Size="90, 42" Name="HandleToEmployee" Location="430, 226" />
+						<ActivityDesigner Size="90, 42" Name="SendEmailToEmployee" Location="430, 298" />
+						<SetStateDesigner Size="90, 59" Name="TransitionToEmployeeChoice" Location="430, 370" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Name="EmployeeChoice" Location="396, 283" Size="210, 81" AutoSize="False" AutoSizeMargin="16, 24">
+			<StateDesigner.Designers>
+				<EventDrivenDesigner Size="110, 308" Name="EmployeeApproves" Location="404, 315">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Size="90, 42" Name="HandleEmployeeApproved" Location="414, 390" />
+						<ActivityDesigner Size="90, 42" Name="SendApprovedEmailToHR" Location="414, 462" />
+						<SetStateDesigner Size="90, 59" Name="TransitionToCompleted" Location="414, 534" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+				<EventDrivenDesigner Size="110, 308" Name="EmployeeDoesNotApprove" Location="404, 340">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Size="90, 42" Name="HandleEmployeeDoesNotApprove" Location="414, 415" />
+						<ActivityDesigner Size="90, 42" Name="SendNotApprovedEmailToHR" Location="414, 487" />
+						<SetStateDesigner Size="90, 59" Name="TransitionToCompleted2" Location="414, 559" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Name="Completed" Location="423, 442" Size="160, 80" AutoSizeMargin="16, 24" />
+	</StateMachineWorkflowDesigner.Designers>
+</StateMachineWorkflowDesigner>

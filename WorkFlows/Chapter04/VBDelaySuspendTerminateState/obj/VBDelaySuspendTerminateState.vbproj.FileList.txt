@@ -1,0 +1,10 @@
+bin\VBDelaySuspendTerminateState.exe
+bin\VBDelaySuspendTerminateState.pdb
+bin\VBDelaySuspendTerminateState.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBDelaySuspendTerminateState.Workflow1.layout
+obj\Debug\VBDelaySuspendTerminateState.Resources.resources
+obj\Debug\VBDelaySuspendTerminateState.vbproj.GenerateResource.Cache
+obj\Debug\VBDelaySuspendTerminateState.exe
+obj\Debug\VBDelaySuspendTerminateState.xml
+obj\Debug\VBDelaySuspendTerminateState.pdb

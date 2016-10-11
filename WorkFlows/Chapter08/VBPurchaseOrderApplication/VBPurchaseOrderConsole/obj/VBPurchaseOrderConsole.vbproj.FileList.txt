@@ -1,0 +1,14 @@
+bin\VBPurchaseOrderConsole.exe
+bin\VBPurchaseOrderConsole.pdb
+bin\VBPurchaseOrderConsole.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBPurchaseOrderConsole.Resources.resources
+obj\Debug\VBPurchaseOrderConsole.vbproj.GenerateResource.Cache
+obj\Debug\VBPurchaseOrderConsole.exe
+obj\Debug\VBPurchaseOrderConsole.xml
+obj\Debug\VBPurchaseOrderConsole.pdb
+bin\VBPurchaseOrderConsole.exe.config
+obj\Debug\VBPurchaseOrderConsole.PurchaseOrderProcess.rules
+bin\ExecuteSQL.dll
+bin\ExecuteSQL.pdb
+bin\ExecuteSQL.xml

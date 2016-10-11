@@ -1,0 +1,10 @@
+bin\VBWhileStateMachineExample.exe
+bin\VBWhileStateMachineExample.pdb
+bin\VBWhileStateMachineExample.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBWhileStateMachineExample.Workflow1.layout
+obj\Debug\VBWhileStateMachineExample.Resources.resources
+obj\Debug\VBWhileStateMachineExample.vbproj.GenerateResource.Cache
+obj\Debug\VBWhileStateMachineExample.exe
+obj\Debug\VBWhileStateMachineExample.xml
+obj\Debug\VBWhileStateMachineExample.pdb

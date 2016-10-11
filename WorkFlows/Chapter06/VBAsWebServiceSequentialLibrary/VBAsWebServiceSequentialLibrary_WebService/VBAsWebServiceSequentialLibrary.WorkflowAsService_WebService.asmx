@@ -1,0 +1,1 @@
+<%@WebService Class="VBAsWebServiceSequentialLibrary.WorkflowAsService_WebService" %>

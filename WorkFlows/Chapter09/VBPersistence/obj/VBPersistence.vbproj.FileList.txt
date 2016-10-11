@@ -1,0 +1,9 @@
+bin\VBPersistence.exe
+bin\VBPersistence.pdb
+bin\VBPersistence.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBPersistence.Resources.resources
+obj\Debug\VBPersistence.vbproj.GenerateResource.Cache
+obj\Debug\VBPersistence.exe
+obj\Debug\VBPersistence.xml
+obj\Debug\VBPersistence.pdb

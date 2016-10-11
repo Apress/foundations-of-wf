@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailC", "SendEmailC.csproj", "{C74DEDE2-92A2-4DCB-8775-4E755C2CDC21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSendEmailTest", "..\CSendEmailTest\CSendEmailTest.csproj", "{96512546-571C-465F-AB26-1C954306DF11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C74DEDE2-92A2-4DCB-8775-4E755C2CDC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74DEDE2-92A2-4DCB-8775-4E755C2CDC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74DEDE2-92A2-4DCB-8775-4E755C2CDC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74DEDE2-92A2-4DCB-8775-4E755C2CDC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96512546-571C-465F-AB26-1C954306DF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96512546-571C-465F-AB26-1C954306DF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96512546-571C-465F-AB26-1C954306DF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96512546-571C-465F-AB26-1C954306DF11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

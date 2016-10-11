@@ -1,0 +1,9 @@
+bin\VBAsWebServiceSequentialLibrary.dll
+bin\VBAsWebServiceSequentialLibrary.pdb
+bin\VBAsWebServiceSequentialLibrary.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBAsWebServiceSequentialLibrary.dll
+obj\Debug\VBAsWebServiceSequentialLibrary.xml
+obj\Debug\VBAsWebServiceSequentialLibrary.pdb
+obj\Debug\VBAsWebServiceSequentialLibrary.WorkflowAsService.resources
+obj\Debug\VBAsWebServiceSequentialLibrary.vbproj.GenerateResource.Cache

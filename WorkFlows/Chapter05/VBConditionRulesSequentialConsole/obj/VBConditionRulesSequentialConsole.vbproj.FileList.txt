@@ -1,0 +1,10 @@
+bin\VBConditionRulesSequentialConsole.exe
+bin\VBConditionRulesSequentialConsole.pdb
+bin\VBConditionRulesSequentialConsole.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBConditionRulesSequentialConsole.Workflow1.rules
+obj\Debug\VBConditionRulesSequentialConsole.Resources.resources
+obj\Debug\VBConditionRulesSequentialConsole.vbproj.GenerateResource.Cache
+obj\Debug\VBConditionRulesSequentialConsole.exe
+obj\Debug\VBConditionRulesSequentialConsole.xml
+obj\Debug\VBConditionRulesSequentialConsole.pdb

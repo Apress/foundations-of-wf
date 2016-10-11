@@ -1,0 +1,38 @@
+﻿<StateMachineWorkflowDesigner Name="Workflow1" AutoSize="False" xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.Location>
+		<ns0:Point X="30" Y="30" />
+	</StateMachineWorkflowDesigner.Location>
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Name="Workflow1InitialState" AutoSize="False">
+			<StateDesigner.Location>
+				<ns0:Point X="359" Y="111" />
+			</StateDesigner.Location>
+			<StateDesigner.Designers>
+				<EventDrivenDesigner Name="eventDrivenActivity1">
+					<EventDrivenDesigner.Designers>
+						<PolicyDesigner Name="policyActivity1">
+							<PolicyDesigner.Size>
+								<ns0:Size Width="90" Height="44" />
+							</PolicyDesigner.Size>
+							<PolicyDesigner.Location>
+								<ns0:Point X="428" Y="230" />
+							</PolicyDesigner.Location>
+						</PolicyDesigner>
+					</EventDrivenDesigner.Designers>
+					<EventDrivenDesigner.Size>
+						<ns0:Size Width="110" Height="150" />
+					</EventDrivenDesigner.Size>
+					<EventDrivenDesigner.Location>
+						<ns0:Point X="418" Y="154" />
+					</EventDrivenDesigner.Location>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+			<StateDesigner.Size>
+				<ns0:Size Width="178" Height="80" />
+			</StateDesigner.Size>
+		</StateDesigner>
+	</StateMachineWorkflowDesigner.Designers>
+	<StateMachineWorkflowDesigner.Size>
+		<ns0:Size Width="887" Height="493" />
+	</StateMachineWorkflowDesigner.Size>
+</StateMachineWorkflowDesigner>

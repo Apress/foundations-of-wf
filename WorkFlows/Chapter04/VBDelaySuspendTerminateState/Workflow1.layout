@@ -1,0 +1,49 @@
+﻿<StateMachineWorkflowDesigner xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Name="Workflow1" Location="30, 30" Size="891, 528" AutoSize="False" AutoSizeMargin="16, 24" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.DesignerConnectors>
+		<StateDesignerConnector TargetConnectionIndex="0" TargetStateName="ResumeState" SourceConnectionIndex="0" TargetConnectionEdge="Top" SetStateName="ToResume" SourceStateName="InitialState" SourceConnectionEdge="Right" TargetActivity="ResumeState" SourceActivity="InitialState" EventHandlerName="eventDrivenActivity1">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="505" Y="113" />
+				<ns0:Point X="529" Y="113" />
+				<ns0:Point X="529" Y="220" />
+				<ns0:Point X="393" Y="220" />
+				<ns0:Point X="393" Y="232" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+	</StateMachineWorkflowDesigner.DesignerConnectors>
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Name="InitialState" Location="339, 71" Size="178, 82" AutoSize="False" AutoSizeMargin="16, 24">
+			<StateDesigner.Designers>
+				<EventDrivenDesigner Size="305, 516" Name="eventDrivenActivity1" Location="323, 151">
+					<EventDrivenDesigner.Designers>
+						<DelayDesigner Size="90, 40" Name="Delay1" Location="430, 226" />
+						<IfElseDesigner Size="285, 341" Name="ifElseActivity1" Location="333, 296">
+							<IfElseDesigner.Designers>
+								<IfElseBranchDesigner Size="114, 236" Name="CounterGreater1" Location="352, 371">
+									<IfElseBranchDesigner.Designers>
+										<SuspendDesigner Size="90, 42" Name="SuspendError" Location="364, 446" />
+										<SetStateDesigner Size="94, 59" Name="ToResume" Location="362, 518" />
+									</IfElseBranchDesigner.Designers>
+								</IfElseBranchDesigner>
+								<IfElseBranchDesigner Size="110, 236" Name="CounterLessEqual1" Location="489, 371">
+									<IfElseBranchDesigner.Designers>
+										<TerminateDesigner Size="90, 42" Name="TerminateError" Location="499, 490" />
+									</IfElseBranchDesigner.Designers>
+								</IfElseBranchDesigner>
+							</IfElseDesigner.Designers>
+						</IfElseDesigner>
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Name="ResumeState" Location="304, 232" Size="178, 80" AutoSizeMargin="16, 24">
+			<StateDesigner.Designers>
+				<EventDrivenDesigner Size="110, 217" Name="eventDrivenActivity2" Location="312, 264">
+					<EventDrivenDesigner.Designers>
+						<DelayDesigner Size="90, 40" Name="Delay" Location="322, 339" />
+						<CodeDesigner Size="90, 42" Name="CodeResume" Location="322, 409" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+	</StateMachineWorkflowDesigner.Designers>
+</StateMachineWorkflowDesigner>

@@ -1,0 +1,10 @@
+bin\VBStateActivitiesConsoleApplication.exe
+bin\VBStateActivitiesConsoleApplication.pdb
+bin\VBStateActivitiesConsoleApplication.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBStateActivitiesConsoleApplication.Workflow1.layout
+obj\Debug\VBStateActivitiesConsoleApplication.Resources.resources
+obj\Debug\VBStateActivitiesConsoleApplication.vbproj.GenerateResource.Cache
+obj\Debug\VBStateActivitiesConsoleApplication.exe
+obj\Debug\VBStateActivitiesConsoleApplication.xml
+obj\Debug\VBStateActivitiesConsoleApplication.pdb

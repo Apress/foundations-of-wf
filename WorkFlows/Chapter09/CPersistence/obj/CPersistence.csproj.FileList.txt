@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CPersistence.Properties.Resources.resources
+obj\Debug\CPersistence.csproj.GenerateResource.Cache
+.\bin\Debug\CPersistence.exe
+.\bin\Debug\CPersistence.pdb
+obj\Debug\CPersistence.exe
+obj\Debug\CPersistence.pdb

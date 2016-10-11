@@ -1,0 +1,15 @@
+﻿<StateMachineWorkflowDesigner xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Name="Workflow1" Location="30, 30" Size="887, 493" AutoSize="False" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Name="Workflow1InitialState" Location="377, 89" Size="244, 160" AutoSize="False">
+			<StateDesigner.Designers>
+				<EventDrivenDesigner Size="110, 291" Name="eventDrivenActivity1" Location="418, 151">
+					<EventDrivenDesigner.Designers>
+						<DelayDesigner Size="90, 42" Name="delayActivity1" Location="428, 226" />
+						<CodeDesigner Size="90, 42" Name="BeforeInvokeCode" Location="428, 298" />
+						<InvokeWebServiceDesigner Size="90, 42" Name="invokeWebServiceActivity1" Location="428, 370" URL="http://localhost/SimpleWebService/Service.asmx" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+	</StateMachineWorkflowDesigner.Designers>
+</StateMachineWorkflowDesigner>

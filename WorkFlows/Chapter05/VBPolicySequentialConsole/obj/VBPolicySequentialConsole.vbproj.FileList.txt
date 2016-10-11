@@ -1,0 +1,10 @@
+bin\VBPolicySequentialConsole.exe
+bin\VBPolicySequentialConsole.pdb
+bin\VBPolicySequentialConsole.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBPolicySequentialConsole.Workflow1.rules
+obj\Debug\VBPolicySequentialConsole.Resources.resources
+obj\Debug\VBPolicySequentialConsole.vbproj.GenerateResource.Cache
+obj\Debug\VBPolicySequentialConsole.exe
+obj\Debug\VBPolicySequentialConsole.xml
+obj\Debug\VBPolicySequentialConsole.pdb

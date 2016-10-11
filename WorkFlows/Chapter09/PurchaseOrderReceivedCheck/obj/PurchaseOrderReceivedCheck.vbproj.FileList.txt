@@ -1,0 +1,13 @@
+bin\PurchaseOrderReceivedCheck.exe
+bin\PurchaseOrderReceivedCheck.pdb
+bin\PurchaseOrderReceivedCheck.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PurchaseOrderReceivedCheck.Resources.resources
+obj\Debug\PurchaseOrderReceivedCheck.vbproj.GenerateResource.Cache
+obj\Debug\PurchaseOrderReceivedCheck.exe
+obj\Debug\PurchaseOrderReceivedCheck.xml
+obj\Debug\PurchaseOrderReceivedCheck.pdb
+bin\PurchaseOrderReceivedCheck.exe.manifest
+bin\PurchaseOrderReceivedCheck.application
+obj\Debug\PurchaseOrderReceivedCheck.exe.manifest
+obj\Debug\PurchaseOrderReceivedCheck.application

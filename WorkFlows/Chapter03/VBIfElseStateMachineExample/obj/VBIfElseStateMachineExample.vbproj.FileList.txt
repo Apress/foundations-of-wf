@@ -1,0 +1,10 @@
+bin\VBIfElseStateMachineExample.exe
+bin\VBIfElseStateMachineExample.pdb
+bin\VBIfElseStateMachineExample.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBIfElseStateMachineExample.Workflow1.layout
+obj\Debug\VBIfElseStateMachineExample.Resources.resources
+obj\Debug\VBIfElseStateMachineExample.vbproj.GenerateResource.Cache
+obj\Debug\VBIfElseStateMachineExample.exe
+obj\Debug\VBIfElseStateMachineExample.xml
+obj\Debug\VBIfElseStateMachineExample.pdb

@@ -1,0 +1,7 @@
+.\bin\Debug\CWhileSequentialExample.exe
+.\bin\Debug\CWhileSequentialExample.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CWhileSequentialExample.Properties.Resources.resources
+obj\Debug\CWhileSequentialExample.csproj.GenerateResource.Cache
+obj\Debug\CWhileSequentialExample.exe
+obj\Debug\CWhileSequentialExample.pdb

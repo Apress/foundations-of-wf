@@ -1,0 +1,138 @@
+﻿<StateMachineWorkflowDesigner Name="Workflow1" AutoSize="False" xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.Location>
+		<ns0:Point X="30" Y="30" />
+	</StateMachineWorkflowDesigner.Location>
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Name="InitialState" AutoSize="False">
+			<StateDesigner.Location>
+				<ns0:Point X="352" Y="71" />
+			</StateDesigner.Location>
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Name="stateInitializationActivity1">
+					<StateInitializationDesigner.Designers>
+						<SequenceDesigner Name="sequenceActivity1">
+							<SequenceDesigner.Designers>
+								<CodeDesigner Name="Sequence1">
+									<CodeDesigner.Size>
+										<ns0:Size Width="90" Height="44" />
+									</CodeDesigner.Size>
+									<CodeDesigner.Location>
+										<ns0:Point X="430" Y="306" />
+									</CodeDesigner.Location>
+								</CodeDesigner>
+								<CodeDesigner Name="Sequence2">
+									<CodeDesigner.Size>
+										<ns0:Size Width="90" Height="44" />
+									</CodeDesigner.Size>
+									<CodeDesigner.Location>
+										<ns0:Point X="430" Y="380" />
+									</CodeDesigner.Location>
+								</CodeDesigner>
+							</SequenceDesigner.Designers>
+							<SequenceDesigner.Size>
+								<ns0:Size Width="110" Height="224" />
+							</SequenceDesigner.Size>
+							<SequenceDesigner.Location>
+								<ns0:Point X="420" Y="230" />
+							</SequenceDesigner.Location>
+						</SequenceDesigner>
+						<SetStateDesigner Name="GoToLastState">
+							<SetStateDesigner.Size>
+								<ns0:Size Width="90" Height="62" />
+							</SetStateDesigner.Size>
+							<SetStateDesigner.Location>
+								<ns0:Point X="430" Y="484" />
+							</SetStateDesigner.Location>
+						</SetStateDesigner>
+					</StateInitializationDesigner.Designers>
+					<StateInitializationDesigner.Size>
+						<ns0:Size Width="130" Height="422" />
+					</StateInitializationDesigner.Size>
+					<StateInitializationDesigner.Location>
+						<ns0:Point X="410" Y="154" />
+					</StateInitializationDesigner.Location>
+				</StateInitializationDesigner>
+			</StateDesigner.Designers>
+			<StateDesigner.Size>
+				<ns0:Size Width="207" Height="84" />
+			</StateDesigner.Size>
+		</StateDesigner>
+		<StateDesigner Name="LastState" AutoSize="False">
+			<StateDesigner.Location>
+				<ns0:Point X="374" Y="217" />
+			</StateDesigner.Location>
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Name="stateInitializationActivity2">
+					<StateInitializationDesigner.Designers>
+						<ParallelDesigner Name="parallelActivity1">
+							<ParallelDesigner.Designers>
+								<SequenceDesigner Name="sequenceActivity2">
+									<SequenceDesigner.Designers>
+										<CodeDesigner Name="ParallelLeft">
+											<CodeDesigner.Size>
+												<ns0:Size Width="90" Height="44" />
+											</CodeDesigner.Size>
+											<CodeDesigner.Location>
+												<ns0:Point X="421" Y="515" />
+											</CodeDesigner.Location>
+										</CodeDesigner>
+									</SequenceDesigner.Designers>
+									<SequenceDesigner.Size>
+										<ns0:Size Width="110" Height="224" />
+									</SequenceDesigner.Size>
+									<SequenceDesigner.Location>
+										<ns0:Point X="411" Y="402" />
+									</SequenceDesigner.Location>
+								</SequenceDesigner>
+								<SequenceDesigner Name="sequenceActivity3">
+									<SequenceDesigner.Designers>
+										<CodeDesigner Name="ParallelRight1">
+											<CodeDesigner.Size>
+												<ns0:Size Width="90" Height="44" />
+											</CodeDesigner.Size>
+											<CodeDesigner.Location>
+												<ns0:Point X="554" Y="478" />
+											</CodeDesigner.Location>
+										</CodeDesigner>
+										<CodeDesigner Name="ParallelRight2">
+											<CodeDesigner.Size>
+												<ns0:Size Width="90" Height="44" />
+											</CodeDesigner.Size>
+											<CodeDesigner.Location>
+												<ns0:Point X="554" Y="552" />
+											</CodeDesigner.Location>
+										</CodeDesigner>
+									</SequenceDesigner.Designers>
+									<SequenceDesigner.Size>
+										<ns0:Size Width="110" Height="224" />
+									</SequenceDesigner.Size>
+									<SequenceDesigner.Location>
+										<ns0:Point X="544" Y="402" />
+									</SequenceDesigner.Location>
+								</SequenceDesigner>
+							</ParallelDesigner.Designers>
+							<ParallelDesigner.Size>
+								<ns0:Size Width="281" Height="330" />
+							</ParallelDesigner.Size>
+							<ParallelDesigner.Location>
+								<ns0:Point X="392" Y="326" />
+							</ParallelDesigner.Location>
+						</ParallelDesigner>
+					</StateInitializationDesigner.Designers>
+					<StateInitializationDesigner.Size>
+						<ns0:Size Width="301" Height="436" />
+					</StateInitializationDesigner.Size>
+					<StateInitializationDesigner.Location>
+						<ns0:Point X="382" Y="250" />
+					</StateInitializationDesigner.Location>
+				</StateInitializationDesigner>
+			</StateDesigner.Designers>
+			<StateDesigner.Size>
+				<ns0:Size Width="207" Height="80" />
+			</StateDesigner.Size>
+		</StateDesigner>
+	</StateMachineWorkflowDesigner.Designers>
+	<StateMachineWorkflowDesigner.Size>
+		<ns0:Size Width="887" Height="518" />
+	</StateMachineWorkflowDesigner.Size>
+</StateMachineWorkflowDesigner>

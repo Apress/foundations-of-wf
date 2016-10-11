@@ -1,0 +1,64 @@
+﻿<StateMachineWorkflowDesigner Name="Workflow1" AutoSize="False" xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.Location>
+		<ns0:Point X="30" Y="30" />
+	</StateMachineWorkflowDesigner.Location>
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Name="CompletedState">
+			<StateDesigner.Location>
+				<ns0:Point X="423" Y="447" />
+			</StateDesigner.Location>
+			<StateDesigner.Size>
+				<ns0:Size Width="160" Height="80" />
+			</StateDesigner.Size>
+		</StateDesigner>
+		<StateDesigner Name="FirstState" AutoSize="False">
+			<StateDesigner.Location>
+				<ns0:Point X="390" Y="70" />
+			</StateDesigner.Location>
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Name="stateInitializationActivity1">
+					<StateInitializationDesigner.Designers>
+						<WhileDesigner Name="whileActivity1">
+							<WhileDesigner.Designers>
+								<CodeDesigner Name="codeActivity1">
+									<CodeDesigner.Size>
+										<ns0:Size Width="90" Height="40" />
+									</CodeDesigner.Size>
+									<CodeDesigner.Location>
+										<ns0:Point X="430" Y="307" />
+									</CodeDesigner.Location>
+								</CodeDesigner>
+							</WhileDesigner.Designers>
+							<WhileDesigner.Size>
+								<ns0:Size Width="140" Height="172" />
+							</WhileDesigner.Size>
+							<WhileDesigner.Location>
+								<ns0:Point X="405" Y="220" />
+							</WhileDesigner.Location>
+						</WhileDesigner>
+						<SetStateDesigner Name="setStateActivity2">
+							<SetStateDesigner.Size>
+								<ns0:Size Width="90" Height="50" />
+							</SetStateDesigner.Size>
+							<SetStateDesigner.Location>
+								<ns0:Point X="430" Y="422" />
+							</SetStateDesigner.Location>
+						</SetStateDesigner>
+					</StateInitializationDesigner.Designers>
+					<StateInitializationDesigner.Size>
+						<ns0:Size Width="160" Height="354" />
+					</StateInitializationDesigner.Size>
+					<StateInitializationDesigner.Location>
+						<ns0:Point X="395" Y="148" />
+					</StateInitializationDesigner.Location>
+				</StateInitializationDesigner>
+			</StateDesigner.Designers>
+			<StateDesigner.Size>
+				<ns0:Size Width="175" Height="80" />
+			</StateDesigner.Size>
+		</StateDesigner>
+	</StateMachineWorkflowDesigner.Designers>
+	<StateMachineWorkflowDesigner.Size>
+		<ns0:Size Width="891" Height="542" />
+	</StateMachineWorkflowDesigner.Size>
+</StateMachineWorkflowDesigner>

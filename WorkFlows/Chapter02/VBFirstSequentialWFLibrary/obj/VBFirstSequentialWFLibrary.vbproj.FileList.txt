@@ -1,0 +1,7 @@
+bin\VBFirstSequentialWFLibrary.dll
+bin\VBFirstSequentialWFLibrary.pdb
+bin\VBFirstSequentialWFLibrary.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBFirstSequentialWFLibrary.dll
+obj\Debug\VBFirstSequentialWFLibrary.xml
+obj\Debug\VBFirstSequentialWFLibrary.pdb

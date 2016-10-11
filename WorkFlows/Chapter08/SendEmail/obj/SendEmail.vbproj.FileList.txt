@@ -1,0 +1,7 @@
+bin\SendEmail.dll
+bin\SendEmail.pdb
+bin\SendEmail.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SendEmail.dll
+obj\Debug\SendEmail.xml
+obj\Debug\SendEmail.pdb

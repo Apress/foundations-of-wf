@@ -1,0 +1,10 @@
+bin\VBFirstStateMachineWFConsoleApplication.exe
+bin\VBFirstStateMachineWFConsoleApplication.pdb
+bin\VBFirstStateMachineWFConsoleApplication.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBFirstStateMachineWFConsoleApplication.Workflow1.layout
+obj\Debug\VBFirstStateMachineWFConsoleApplication.Resources.resources
+obj\Debug\VBFirstStateMachineWFConsoleApplication.vbproj.GenerateResource.Cache
+obj\Debug\VBFirstStateMachineWFConsoleApplication.exe
+obj\Debug\VBFirstStateMachineWFConsoleApplication.xml
+obj\Debug\VBFirstStateMachineWFConsoleApplication.pdb

@@ -1,0 +1,12 @@
+bin\VBCustomActivitySequentialConsole.exe
+bin\VBCustomActivitySequentialConsole.pdb
+bin\VBCustomActivitySequentialConsole.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VBCustomActivitySequentialConsole.Resources.resources
+obj\Debug\VBCustomActivitySequentialConsole.vbproj.GenerateResource.Cache
+obj\Debug\VBCustomActivitySequentialConsole.exe
+obj\Debug\VBCustomActivitySequentialConsole.xml
+obj\Debug\VBCustomActivitySequentialConsole.pdb
+bin\SimpleActivity.dll
+bin\SimpleActivity.pdb
+bin\SimpleActivity.xml
